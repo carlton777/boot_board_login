@@ -29,7 +29,7 @@ public class BoardController {
 	@RequestMapping("/list")
 //	public String list(Model model) {
 	public String list(Model model, HttpServletRequest request) {
-		log.info("@# list()");
+		log.info("@# list 111");
 		
 		HttpSession session = request.getSession();
 		MemDTO mDto = (MemDTO) session.getAttribute("LOGIN_MEMBER");
